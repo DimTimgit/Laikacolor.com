@@ -1,0 +1,15 @@
+/* styles for opera browser */
+/* zutzu - skinmod.es */
+
+.login_bar div.user 
+{ 
+    line-height: 20px;
+}
+#guest_form
+{
+    margin-top: 10px;
+}
+.login_bar div.user ul.reset
+{
+    margin-top: 10px;
+}

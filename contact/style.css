@@ -1,0 +1,155 @@
+/* transition - animation */
+/* flex */
+/* [Stylesheet - 1.0] */
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/classy-nav.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  line-height: 1.3;
+  font-weight: 500; }
+
+  hr {
+    background: #000;
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #000000;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #969696;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400; }
+
+   a {
+      color: white !important;
+
+    }
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #000000;
+  font-weight: 500;
+  font-size: 21px; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+  .margin-8 {
+      height: 20px;
+    }
+
+footer {
+  background-color: red !important;
+  height: 150px;
+}
+
+
+/* :: 13.0 Contact Area CSS */
+.contact-form-area input,
+.contact-form-area textarea {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 13px;
+  color: #969696;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  transition-duration: 500ms; }
+  .contact-form-area input:focus,
+  .contact-form-area textarea:focus {
+    background-color: #f6f6f6;
+    box-shadow: none;
+    border-bottom-color: #ff7902; }
+.contact-form-area textarea {
+  height: 170px;
+  padding-top: 20px;
+  margin-bottom: 50px; }
+
+.map-area {
+  position: relative;
+  z-index: 2;
+  height: 690px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .map-area {
+      height: 550px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .map-area {
+      height: 450px; } }
+  @media only screen and (max-width: 767px) {
+    .map-area {
+      height: 320px; } }
+  .map-area iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-bottom: 0; }
+
+.single-contact-content {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px; }
+  .single-contact-content:last-child {
+    margin-bottom: 0; }
+  .single-contact-content .icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 32px;
+    flex: 0 0 32px;
+    max-width: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #969696;
+    color: #688bfe;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 20px; }
+  .single-contact-content .text {
+    position: relative;
+    z-index: 1; }
+    .single-contact-content .text h6 {
+      font-size: 18px;
+      margin-bottom: 10px; }
+    .single-contact-content .text p {
+      margin-bottom: 0; }
+

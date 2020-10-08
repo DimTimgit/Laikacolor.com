@@ -1,0 +1,422 @@
+/* Normal, standard links. */
+a:link, a:visited
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: none;
+}
+/* Navigation links - for the link tree. */
+.nav, .nav:link, .nav:visited
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+a.nav:hover
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+/* Tables should show empty cells. */
+table
+{
+	empty-cells: show;
+}
+td
+{
+	font-family : Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+/* The main body of the entire forum. */
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-size:70%;
+	font-family : Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+/* overall width of forum */
+#wrapper {
+	padding:4px;
+	margin:0px auto;
+	width:90%;
+	text-align:left;
+}
+#page_bg {
+	width: 100%;
+}
+/* header section */
+#header {
+	margin: 0;
+	padding: 5px;
+	height: 88px;
+}
+#header_r {
+	margin: 0;
+	height: 78px;
+	width: auto;
+	float: right;
+}
+#header_r a, #header_r a:visited {
+	text-decoration: none;
+}
+#header_r a:hover {
+	text-decoration: none;
+}
+/* header text and form buttons */
+#header_r input, #header_r button, #header_r textarea
+{
+	font-size: 12px;
+	margin:0px 5px;
+	padding:1px 4px;
+	font-family: Georgia, tahoma, sans-serif;
+}
+/* header input elements that are checkboxes or radio buttons. */
+#header_r input.check
+{
+}
+/* header Selects are a bit smaller, because it makes them look even better 8). */
+#header_r select
+{
+	font-size: 8pt;
+	font-family: Georgia, tahoma, sans-serif;
+}
+/* top avatar resize */
+.avatar_t
+{
+	height: 65px;
+	width: 65px;
+	border: none;
+}
+.avatar_frame {
+	height: 65px;
+	width: 65px;
+	margin: -65px 0 0 0;
+	position: relative;
+}
+.usercenter {
+	margin: 0;
+	padding: 0;
+	width: 370px;
+}
+/* main navigation */
+#menu {
+	width: auto;
+	height: 30px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 20px 0 60px;
+}
+.maintab_back a, .maintab_back a:visited {
+	text-decoration: none;
+	float: left;
+	display: block;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 34px;
+	font-size: 11px;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	text-transform: uppercase;	
+}
+.maintab_back a:hover {
+	text-decoration: none;
+}
+.maintab_active_back a, .maintab_active_back a:visited {
+	text-decoration: none;
+	float: left;
+	display: block;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 34px;
+	font-size: 11px;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	text-transform: uppercase;	
+}
+.maintab_active_back a:hover {
+	text-decoration: none;
+}
+.maintab_active_back a {
+}
+td.maintab_back, td.maintab_active_back {
+}
+.seperator {
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 2px;
+	height: 30px;
+}
+/* news "ticker" */
+#newsbar {
+	padding: 0 20px 0 20px;
+	margin: 0;
+	line-height: 28px;
+	font-family: Tahoma, arial, helvetica, serif;
+}
+#news {
+	padding: 0 20px 0 20px;
+	margin: 0;
+	line-height: 28px;
+}
+/* current time */
+#currenttime {
+	float: right;
+	padding: 0 20px 0 20px;
+	margin: 0;
+	line-height: 29px;
+	text-align: right;
+	font-size: x-small;
+}
+/* top area (linktree and search) */
+.top_area {
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+}
+/* main content */
+#content {
+	margin: 0;
+	padding: 0;
+}
+/* footer */
+#footer {
+	margin: 0;
+	padding: 5px 0 0 0;
+	line-height: 25px;
+	text-align: center;
+}
+#footer_l {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 20px;
+	text-align: left;
+}
+#footer_r {
+	font-size: 93%;
+	margin: 0;
+	padding: 0 20px 0 10px;
+	text-align: right;
+	font-family: Verdana,Arial,sans-serif;
+}
+#footer a, #footer a:visited {
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: none;
+}
+/* Input boxes - just a bit smaller than normal so they align well. */
+input, textarea, button
+{
+	font-size: 12px;
+	margin:0px 5px;
+	padding:1px 4px;
+	font-family: Georgia, tahoma, sans-serif;
+}
+textarea {
+	margin:4px 0;
+}
+.subtitle input.check,
+.dt input.check,
+.post-foot input.check, 
+.title input.check,
+.right input.check {
+	margin:0;
+	padding:0;
+}
+/* Hide from IE Mac \*/
+* html .subtitle input.check, 
+* html .right input.check {
+	margin-top:-5px;
+	margin-bottom:-3px;
+}
+/* End hide from IE mac */
+
+/* Standard horizontal rule.. ([hr], etc.) */
+hr, .hrcolor
+{
+	height: 1px;
+	border: 0;
+}
+/* No image should have a border when linked */
+a img
+{
+	border: 0;
+}
+/* A quote, perhaps from another post. */
+.quote
+{
+	color: #000000;
+	background-color: #D7DAEC;
+	border: 1px solid #000000;
+	margin: 1px;
+	padding: 1px;
+	font-size: x-small;
+	line-height: 1.4em;
+}
+/* A code block - maybe even PHP ;). */
+.code
+{
+	color: #000000;
+	background-color: #dddddd;
+	font-family: "courier new", "times new roman", monospace;
+	font-size: x-small;
+	line-height: 1.3em;
+	/* Put a nice border around it. */
+	border: 1px solid #000000;
+	margin: 1px auto 1px auto;
+	padding: 1px;
+	width: 99%;
+	/* Don't wrap its contents, and show scrollbars. */
+	white-space: nowrap;
+	overflow: auto;
+	/* Stop after about 24 lines, and just show a scrollbar. */
+	max-height: 24em;
+}
+/* The "Quote:" and "Code:" header parts... */
+.quoteheader, .codeheader
+{
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: x-small;
+	line-height: 1.2em;
+}
+/* Generally, those [?] icons.  This makes your cursor a help icon. */
+.help
+{
+	cursor: help;
+}
+/* /me uses this a lot. (emote, try typing /me in a post.) */
+.meaction
+{
+	color: red;
+}
+/* The main post box - this makes it as wide as possible. */
+.editor
+{
+	width: 96%;
+}
+/* Highlighted text - such as search results. */
+.highlight
+{
+	background-color: yellow;
+	font-weight: bold;
+	color: black;
+}
+/* Alternating backgrounds for posts, and several other sections of the forum. */
+.windowbg {
+}
+.windowbg2 {
+}
+.windowbg3 {
+}
+.calendar_today {
+}
+/* These are used primarily for titles, but also for headers (the row that says what everything in the table is.) */
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td {
+	font-family: Tahoma, arial, helvetica, serif;
+	font-style: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.titlebg, .titlebg a:link, .titlebg a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+}
+.titlebg a:hover {
+	text-decoration: none;
+}
+/* same as titlebg, but used where bold text is not needed */
+.titlebg2 a:link, .titlebg2 a:visited {
+	font-style: normal;
+	text-decoration: none;
+}
+.titlebg2 a:hover {
+	text-decoration: none;
+}
+/* This is used for categories, page indexes, and several other areas in the forum.
+.catbg and .catbg2 is for boardindex, while .catbg3 is for messageindex and display headers*/
+.catbg , tr.catbg td , .catbg3 , tr.catbg3 td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* catbg2 is used for a category that has new posts in it... to make it light up. */
+.catbg2 , tr.catbg2 td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.catbg, .catbg2, td.catbg3 {
+	font-weight: bold;
+}
+.catbg3, .catbg3 a:link, .catbg3 a:visited, tr.catbg3 td {
+	font-size: 100%;
+}
+.catbg a:link, .catbg a:visited, .catbg3 a:link, .catbg3 a:visited {
+	text-decoration: none;
+}
+.catbg a:hover, .catbg3 a:hover {
+	text-decoration: none;
+}
+.catbg2 a:link, .catbg2 a:visited {
+	text-decoration: none;
+}
+.catbg2 a:hover {
+	text-decoration: none;
+}
+/* This is used for tables that have a grid/border background color (such as the topic listing.) */
+.bordercolor {
+	padding: 0px;
+}
+/* This is used on tables that should just have a border around them. */
+.tborder {
+}
+/* Default font sizes: small (8pt), normal (10pt), and large (14pt). */
+.smalltext {
+font-size: 93%;
+}
+.normaltext {
+	font-size: small;
+}
+.largetext {
+	font-size: large;
+}
+fieldset {
+}
+/* Sometimes there will be an error when you post */
+.error {
+	color: red;
+}
+/* Posts and personal messages displayed throughout the forum. */
+.post, .personalmessage {
+	width: 100%;
+	overflow: auto;
+	line-height: 1.3em;
+}
+/* clear floating */
+.clr {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#verificiation_image {
+ 	background-color: #fff;
+	margin: 0 0 5px 10px;
+}
+/* The AJAX notifier */
+#ajax_in_progress {
+	background: #32CD32;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt;
+	padding: 3px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}

@@ -1,0 +1,101 @@
+.badge {
+	background-color: white !important;
+}
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 50px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '❤️';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+.rating-result {
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '❤️';
+}
+.rating-result > span.active {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.table>tbody>tr.info>td, .table>tbody>tr.info>th, 
+.table>tbody>tr>td.info, .table>tbody>tr>th.info, 
+.table>tfoot>tr.info>td, .table>tfoot>tr.info>th, 
+.table>tfoot>tr>td.info, .table>tfoot>tr>th.info, 
+.table>thead>tr.info>td, .table>thead>tr.info>th, 
+.table>thead>tr>td.info, .table>thead>tr>th.info {
+    background-color: #f44336 !important;
+ }
+
+
+
+    hr {
+		background: #000;
+		border: 0;
+		height: 0; /* Firefox... */
+		box-shadow: 0 0 10px 1px #000000;
+}
+    
+
+    footer {
+    	background-color: red !important;
+    	height: 200px;
+    }
+   
+    .margin-8 {
+    	height: 20px;
+    }
+
+    a {
+    	font-size: 21px;
+    	color: white !important;
+
+    }
+
+    .vert-align a {
+    	color: black !important;
+    }

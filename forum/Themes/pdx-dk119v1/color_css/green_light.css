@@ -1,0 +1,226 @@
+/* Logo = logo.png */
+#logo {
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: #ccc url(.././images/light/logo.png) 0 0 no-repeat;
+	height: 88px;
+	width: 151px;
+}
+/* background color for the on, on2 and off GIFs */
+.statpng {
+	background-color: #00cc33;
+}
+/* Normal, standard links. */
+a:link, a:visited {
+	color: #00cc33;
+}
+a:hover {
+	color: #333;
+}
+/* Navigation links - for the link tree. */
+.nav, .nav:link, .nav:visited {
+	color: #00cc33;
+}
+a.nav:hover {
+	color: #333;
+}
+/* The main body of the entire forum. */
+body {
+	background: #999 url(.././images/light/bg.png) repeat-x top; 
+	color : #ffffff;
+}
+/* overall width of forum */
+#wrapper {
+	background-color: #ffffff;
+	padding: 2px;
+}
+/* some background */
+#page_bg {
+	background-color: #ffffff;
+}
+/* header section */
+#header {
+	background: #ccc url(.././images/light/header_bg.png) repeat-x top;
+	color: #333;
+}
+#header_r {
+	color: #333;
+}
+#header_r a, #header_r a:visited {
+	color: #00cc33;
+}
+#header_r a:hover {
+	color: #333;
+}
+/* header text and form buttons */
+#header_r input, #header_r button, #header_r textarea {
+	color: #404040;
+}
+/* header input elements that are checkboxes or radio buttons. */
+#header_r input.check {
+}
+/* header Selects are a bit smaller, because it makes them look even better 8). */
+#header_r select {
+	color: #404040;
+}
+.avatar_frame {
+ 	background: transparent url(.././images/light/avatar_frame.gif);
+}
+/* main navigation */
+#menu {
+	background: #ccc url(.././images/light/menu_bg_green.png) repeat-x top;
+}
+.maintab_back a, .maintab_back a:visited {
+	color: #333;
+	}
+.maintab_back a:hover {
+	color: #fff;
+	background: url(.././images/light/menu_active_green.png) 50% 0 no-repeat;
+}
+.maintab_active_back a, .maintab_active_back a:visited {
+	color: #228B22;
+}
+.maintab_active_back a:hover {
+	color: #fff;
+}
+.maintab_active_back a {
+	background: url(.././images/light/menu_active_green.png) 50% 0 no-repeat;
+}
+td.maintab_back, td.maintab_active_back {
+	background: #ccc url(.././images/light/menu_bg_green.png) repeat-x top;
+}
+.seperator {
+	background: url(.././images/light/menu_div_green.png) 0 0 no-repeat;
+}
+/* news "ticker" */
+#newsbar {
+	background: #00cc33 url(.././images/light/news_bg_green.png) 0 0 repeat;
+	color: #ccc;
+}
+#news {
+	color: #ccc;
+}
+/* current time */
+#currenttime {
+	color: #ccc;
+}
+/* top area (linktree and search) */
+#top_area {
+	background: #ffffff url(.././images/light/shadow_top_white.png) 0 0 repeat-x;
+	color: #333;
+}
+/* advanced search button*/
+a.searchb:link, a.searchb:visited
+{
+	margin: 3px 0 0 0;
+	width: 20px;
+	height: 15px;
+	background-position: top left;
+	float: left;
+	text-decoration: none;
+	background: url(.././images/light/search2.gif) no-repeat;
+}
+a.searchb:hover 
+{
+	background-position: 0px -16px;
+	text-decoration: none;
+}
+/* main content */
+#content {
+	background-color: #ffffff;
+	color: #333333;
+}
+/* footer */
+#footer {
+	color: #333;
+	background: #ccc url(.././images/light/menu_bg_green.png) repeat-x top;
+}
+#footer a, #footer a:visited {
+	color: #228B22;
+}
+#footer a:hover {
+	color: #fff;
+}
+/* Standard horizontal rule.. ([hr], etc.) */
+hr, .hrcolor {
+	color: #666666;
+	background-color: #666666;
+}
+/* No image should have a border when linked */
+a img {
+	border: 0;
+}
+/* Alternating backgrounds for posts, and several other sections of the forum. */
+.windowbg {
+	color: #333;
+	background: #ffffff url(.././images/light/shadow_top_white.png) 0 0 repeat-x;
+}
+.windowbg2 {
+	color: #333;
+	background: #ffffff url(.././images/light/shadow_top_white.png) 0 0 repeat-x;
+}
+.windowbg3 {
+	color: #333;
+	background-color: #ffffff;
+}
+#preview_body.post {
+	color: #333;
+	background-color: #ffffff;
+}
+.calendar_today {
+	background-color: #dfdfdf;
+}
+/* These are used primarily for titles, but also for headers (the row that says what everything in the table is.) */
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td {
+	color: #ccc;
+	background: #00cc33 url(.././images/light/title_bg_green.png) 0 0 repeat-x;
+}
+.titlebg, .titlebg a:link, .titlebg a:visited {
+	color: #ccc;
+}
+.titlebg a:hover {
+	color: #333;
+}
+/* same as titlebg, but used where bold text is not needed */
+.titlebg2 a:link, .titlebg2 a:visited {
+	color: #ccc;
+}
+.titlebg2 a:hover {
+	color: #333;
+}
+/* This is used for categories, page indexes, and several other areas in the forum.
+.catbg and .catbg2 is for boardindex, while .catbg3 is for messageindex and display headers*/
+.catbg , tr.catbg td , .catbg3 , tr.catbg3 td {
+	background: #ccc url(.././images/light/cat_bg.png) repeat-x;
+	color: #333;
+}
+/* catbg2 is used for a category that has new posts in it... to make it light up. */
+.catbg2 , tr.catbg2 td
+{
+	background: #00cc33 url(.././images/light/title_bg_green.png) repeat-x;
+	color: #ccc;
+}
+.catbg a:link, .catbg a:visited, .catbg3 a:link, .catbg3 a:visited {
+	color: #333;
+}
+.catbg a:hover, .catbg3 a:hover {
+	color: #ffffff;
+}
+.catbg2 a:link, .catbg2 a:visited {
+	color: #ccc;
+}
+.catbg2 a:hover {
+	color: #333;
+}
+/* This is used for tables that have a grid/border background color (such as the topic listing.) */
+.bordercolor {
+	background-color: #9fa4a9;
+}
+/* This is used on tables that should just have a border around them. */
+.tborder {
+	
+}
+fieldset {
+	border: 1px solid #9fa4a9;
+}
